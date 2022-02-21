@@ -10,24 +10,27 @@
 <body>
     <section>
         <h1>Expression regulière</h1>
-        <div>   
-            <div class="label">        
-            <label for="email" id="email">Email : </label>
-            
-            </div> 
-            <input for="email" type="mail"> <br><br>
-            <div id="retourMail"></div>
-            <div class="label">
-                <label for="mdp">Mot de passe : </label>
+        <div>
+            <form action="" method="POST" id="logForm">
+                <div class="label">        
+                <label for="email" id="email">Email : </label>
                 
-            </div> 
-            <input name="mdp" type="text"><br>
-            <div id="retourMdp"></div>
-            <button class="btn">Connexion</button>
-            
+                </div> 
+                <input name="email" type="mail">
+                <small id="retourMail"></small>
+                
+                <div class="label">
+                    <label for="mdp">Mot de passe : </label>
+                    
+                </div> 
+                <input name="mdp" type="text"><br>
+                <div id="retourMdp"></div>
+                <button class="btn">Connexion</button>
+            </form>               
         </div>
     </section>
 
     
 </body>
+<script src="regExp.js"></script>
 </html>

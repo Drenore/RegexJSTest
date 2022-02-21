@@ -46,3 +46,10 @@ input{
 .btn:hover{
     background-color: rgb(61, 61, 61); ;
 }
+.correct{
+    color: green;
+
+}
+.incorrect{
+    color: red;
+}
